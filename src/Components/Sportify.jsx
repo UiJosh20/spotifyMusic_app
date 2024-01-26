@@ -85,8 +85,8 @@ const Sportify = () => {
           ))}
         </section>
 
-            <div className="bg-white fixed bottom-0 w-">
-          <audio controls ref={(audio) => { setCurrentAudio(audio); }} loop></audio>
+            <div className="bg-white fixed bottom-0 w-full">
+          <audio controls ref={(audio) => { setCurrentAudio(audio); }} loop className="w-full"></audio>
             </div>
           
         </div>
