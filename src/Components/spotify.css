@@ -1,4 +1,3 @@
-
 .main {
   background-color: white;
   /* padding: 1em; */
@@ -17,7 +16,7 @@
   transform: rotate(180deg);
   justify-content: right;
   border-radius: 10px;
-  transition: .4s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .loader:hover {
@@ -27,7 +26,7 @@
 
 .currentplaying {
   display: flex;
-  margin:1em;
+  margin: 1em;
   padding: 10px;
   background-color: white;
   z-index: 99;
@@ -79,7 +78,6 @@
   align-items: center;
   /* margin-top: 20px; */
   margin-left: 10px;
- 
 }
 .load1 {
   width: 6px;
@@ -152,4 +150,56 @@
   100% {
     height: 0.2em;
   }
+}
+
+/* styling for the audio player */
+
+.audio-player {
+  width: 100%;
+  margin-top: 20px;
+  /* border: 2px solid red; */
+  width: 100%;
+  background-color: #ffffff;
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+}
+
+.audio-player::-webkit-media-controls-panel {
+  background-color: #ffffff !important;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.audio-player::-webkit-media-controls-play-button {
+  /* display: none !important; */
+}
+
+.audio-player::-webkit-media-controls-timeline
+{
+  display: block;
+}
+
+.audio-player::-webkit-media-controls-start-playback-button,
+.audio-player::-webkit-media-controls-current-time-display,
+.audio-player::-webkit-media-controls-time-remaining-display,
+.audio-player::-webkit-media-controls-time-remaining-display,
+.audio-player::-webkit-media-controls-menu{
+  display: none !important;
+}
+
+@media screen and (max-width:475px){
+  .audio-player {
+  width: 100%;
+  margin-top: 20px;
+  /* border: 2px solid red; */
+  width: 100%;
+  background-color: #ffffff;
+  /* border: 1px solid #ddd; */
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+}
+  
 }
