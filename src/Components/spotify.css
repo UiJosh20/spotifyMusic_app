@@ -189,6 +189,68 @@
   display: none !important;
 }
 
+
+/* Your existing CSS styles */
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #1a1a1a; /* Dark background color */
+  color: #ffffff; /* Light text color */
+}
+
+.dark-mode .loader:hover {
+  background-color: #333; /* Darker background color on hover */
+}
+
+.dark-mode .currentplaying {
+  background-color: #333; /* Dark background color for currently playing section */
+}
+
+.dark-mode .heading {
+  color: #ffffff; /* Light text color for headings */
+}
+
+/* Add more styles as needed for dark mode */
+/* Dark mode styles */
+.dark-mode .loader {
+  background-color: #333; /* Darker background color */
+}
+
+.dark-mode .song {
+  color: #ffffff; /* Light text color for song information */
+}
+
+.dark-mode .artist {
+  color: #cccccc; /* Lighter text color for artist information */
+}
+
+.dark-mode .loading .load {
+  background-color: #f02727; /* Light color for loading animation */
+}
+
+.dark-mode .audio-player {
+  background-color: #333; /* Dark background color for audio player */
+  border: 1px solid #666; /* Darker border color */
+}
+
+.dark-mode .audio-player::-webkit-media-controls-panel {
+  background-color: #333 !important; /* Dark background color for media controls */
+}
+
+.dark-mode .audio-player::-webkit-media-controls-current-time-display,
+.dark-mode .audio-player::-webkit-media-controls-time-remaining-display {
+  color: #ffffff !important; /* Light text color for time display */
+}
+
+.dark-mode .audio-player::-webkit-media-controls-timeline {
+  background-color: #666 !important; /* Darker color for timeline */
+}
+.dark-mode .main{
+  background-color: black;
+}
+
+
+
 @media screen and (max-width:475px){
   .audio-player {
   width: 100%;
