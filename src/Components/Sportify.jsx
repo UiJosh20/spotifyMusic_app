@@ -76,7 +76,7 @@ const Sportify = () => {
 
   return (
     <main className={darkMode ? "dark-mode" : ""}>
-      <button onClick={toggleDarkMode}>
+      <button onClick={toggleDarkMode} >
         {darkMode ? "Switch to Light Mode" : "Switch to Dark Mode"}
       </button>
       <div className="flex justify-between align-middle px-5">

@@ -6,6 +6,9 @@
   /* margin: 1em; */
   margin-bottom: 50px;
 }
+main{
+  padding-bottom: 50px;
+}
 
 .loader {
   display: flex;
