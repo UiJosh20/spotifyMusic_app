@@ -206,7 +206,7 @@ main{
 }
 
 .dark-mode .currentplaying {
-  background-color: #333; /* Dark background color for currently playing section */
+  background-color: #1a1a1a; /* Dark background color for currently playing section */
 }
 
 .dark-mode .heading {
@@ -231,13 +231,14 @@ main{
   background-color: #f02727; /* Light color for loading animation */
 }
 
-.dark-mode .audio-player {
-  background-color: #333; /* Dark background color for audio player */
-  border: 1px solid #666; /* Darker border color */
+.dark-mode .audioCon {
+  background-color: #000000; /* Dark background color for audio player */
+  /* border: 1px solid #666; Darker border color */
 }
 
 .dark-mode .audio-player::-webkit-media-controls-panel {
-  background-color: #333 !important; /* Dark background color for media controls */
+  background-color: #ffffff !important; /* Dark background color for media controls */
+ 
 }
 
 .dark-mode .audio-player::-webkit-media-controls-current-time-display,
@@ -245,12 +246,13 @@ main{
   color: #ffffff !important; /* Light text color for time display */
 }
 
-.dark-mode .audio-player::-webkit-media-controls-timeline {
-  background-color: #666 !important; /* Darker color for timeline */
-}
 .dark-mode .main{
   background-color: black;
 }
+.dark-mode .audio-player{
+  background-color: black;
+}
+
 
 
 

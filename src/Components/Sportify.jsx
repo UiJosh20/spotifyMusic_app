@@ -168,7 +168,7 @@ const Sportify = () => {
             ))}
           </div>
 
-          <div className="bg-white fixed bottom-0 w-full flex p-4">
+          <div className="bg-white fixed bottom-0 w-full flex p-4 audioCon">
             <audio
               controls
               ref={(audio) => {
